@@ -1,0 +1,23 @@
+namespace #NAMESPACE#
+{
+    using UnityEngine;
+    
+    [DisallowMultipleComponent]
+    internal sealed class #SCRIPTNAME# : MonoBehaviour
+    {
+        
+        // [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        // private static void ResetStatic(){}
+        // private void Awake(){}
+        // private void OnEnable(){}
+        // private void Start(){}
+        // private void Update(){}
+        // private void OnApplicationQuit(){}
+        // private void OnDisable(){}
+        // private void OnDestroy(){}
+        
+        // https://docs.unity3d.com/Manual/ExecutionOrder.html
+        // https://docs.unity3d.com/ScriptReference/RuntimeInitializeLoadType.html
+        
+    }
+}
